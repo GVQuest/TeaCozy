@@ -5,6 +5,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin-top: 0px
 }
 
 header {
@@ -16,6 +17,7 @@ header {
   position: fixed;
   background-color: black;
   z-index: 10;
+
 }
 
 a {
@@ -34,14 +36,15 @@ nav span {
   padding: 20px 10px;
 }
 
-.head-nav nav {
+header nav {
   display: block;
   float: right;
-  margin-right: 40px;
+  margin-right: 10px;
 }
 
 .logo img {
   height: 50px;
+
 }
 
 .logo {
@@ -73,4 +76,31 @@ nav span {
   width: 100%;
   margin: auto;
   background-color: black;
+}
+
+.featured {
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.flex-container-tea {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px
+}
+
+.tea span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
 }
