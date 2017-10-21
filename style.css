@@ -17,14 +17,22 @@ header {
   position: fixed;
   background-color: black;
   z-index: 10;
+}
 
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
 
 a {
   color: seashell;
 }
 
-h2, h4 {
+p {
+  display: block;
+}
+
+h2, h3, h4 {
   display: block;
   font-weight: bold;
   margin: 0;
@@ -63,12 +71,14 @@ header nav {
 }
 
 .flex-container {
-  height: 700px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 70px;
-  background-image: url("pictures/background.jpg");
+}
+
+.backgroundimg {
+    background-image: url("pictures/background.jpg");
+    height: 700px;
 }
 
 .mission {
@@ -85,12 +95,6 @@ header nav {
   margin: auto;
 }
 
-.flex-container-tea {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .tea img {
   display: block;
   height: 200px;
@@ -103,4 +107,25 @@ header nav {
   font-weight: bold;
   text-align: center;
   padding: 5px;
+}
+
+.backgroundloc {
+  background-image: url("pictures/locations.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+.loc {
+  display: flex;
+  flex-basis: 280px;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1;
+}
+
+.contact {
+  height: 200px;
 }
